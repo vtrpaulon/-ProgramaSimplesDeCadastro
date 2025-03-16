@@ -1,0 +1,14 @@
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\bin\Debug\net8.0\ProgramaSimplesDeCadastro.exe
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\bin\Debug\net8.0\ProgramaSimplesDeCadastro.deps.json
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\bin\Debug\net8.0\ProgramaSimplesDeCadastro.runtimeconfig.json
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\bin\Debug\net8.0\ProgramaSimplesDeCadastro.dll
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\bin\Debug\net8.0\ProgramaSimplesDeCadastro.pdb
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\obj\Debug\net8.0\ProgramaSimplesDeCadastro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\obj\Debug\net8.0\ProgramaSimplesDeCadastro.AssemblyInfoInputs.cache
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\obj\Debug\net8.0\ProgramaSimplesDeCadastro.AssemblyInfo.cs
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\obj\Debug\net8.0\ProgramaSimplesDeCadastro.csproj.CoreCompileInputs.cache
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\obj\Debug\net8.0\ProgramaSimplesDeCadastro.dll
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\obj\Debug\net8.0\refint\ProgramaSimplesDeCadastro.dll
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\obj\Debug\net8.0\ProgramaSimplesDeCadastro.pdb
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\obj\Debug\net8.0\ProgramaSimplesDeCadastro.genruntimeconfig.cache
+C:\Users\vitor\source\repos\ProgramaSimplesDeCadastro\obj\Debug\net8.0\ref\ProgramaSimplesDeCadastro.dll
