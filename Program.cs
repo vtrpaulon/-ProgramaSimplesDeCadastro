@@ -1,4 +1,3 @@
-﻿
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -12,7 +11,6 @@ namespace ProgramaSimplesDeCadastro
 {
     class Program
     {
-
         [System.Serializable]
         struct Cliente
         {
@@ -20,11 +18,8 @@ namespace ProgramaSimplesDeCadastro
             public string email;
             public string cpf;
         }
-
         static List<Cliente> clientes = new List<Cliente>();
-
         enum Menu { Listagem = 1, Adicionar = 2, Remover = 3, Sair = 4 }
-
         public static void Main(string[] args)
         {
             Carregar();
@@ -54,8 +49,6 @@ namespace ProgramaSimplesDeCadastro
                 Console.Clear();
             }
         }
-
-
         static void Adicionar()
         {
             Cliente cliente = new Cliente();
@@ -72,10 +65,8 @@ namespace ProgramaSimplesDeCadastro
             Console.WriteLine("Cadastro concluído, aperte enter para sair.");
             Console.ReadLine();
         }
-
         static void Listagem()
         {
-
             if (clientes.Count > 0) // SE tem pelo menos um cliente
             {
                 Console.WriteLine("Lista de clientes: ");
@@ -88,19 +79,15 @@ namespace ProgramaSimplesDeCadastro
                     Console.WriteLine($"CPF: {cliente.cpf}");
                     Console.WriteLine("====================================");
                     i++;
-
                 }
             }
             else
             {
                 Console.WriteLine("Nenhum cliente cadastrado!");
             }
-
-
             Console.WriteLine("Aperte enter para sair.");
             Console.ReadLine();
         }
-
         static void Remover()
         {
             Listagem();
@@ -108,10 +95,8 @@ namespace ProgramaSimplesDeCadastro
             int id = int.Parse(Console.ReadLine());
             if (id >= 0 && id < clientes.Count)
             {
-
                 clientes.RemoveAt(id);
                 Salvar();
-
             }
             else
             {
@@ -119,13 +104,11 @@ namespace ProgramaSimplesDeCadastro
                 Console.ReadLine();
             }
         }
-
         static void Salvar()
         {
             string json = JsonSerializer.Serialize(clientes);
             File.WriteAllText("clientes.json", json);
         }
-
         static void Carregar()
         {
             if (File.Exists("clientes.json"))
@@ -145,6 +128,5 @@ namespace ProgramaSimplesDeCadastro
                 clientes = new List<Cliente>();
             }
         }
-
     }
 }
